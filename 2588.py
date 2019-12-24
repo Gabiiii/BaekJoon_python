@@ -1,3 +1,4 @@
+# 2588 곱셈
 inp1 = int(input())
 inp2 = int(input())
 
