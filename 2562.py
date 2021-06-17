@@ -9,4 +9,3 @@ for i in range(9):
         cnt = i+1
 
 print("%d\n%d" %(tmax,cnt))
-
