@@ -1,6 +1,6 @@
-# 10871 Xº¸´Ù ÀÛÀº ¼ö
+# 10871 Xï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 count, num = map(int, input().split())
 inArr = list(map(int, input().split()))
 for i in range(count):
-        if inArr[i] < num:
-                print(inArr[i], end=" ")
+    if inArr[i] < num:
+        print(inArr[i], end=" ")
