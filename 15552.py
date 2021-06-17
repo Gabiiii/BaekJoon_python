@@ -1,7 +1,7 @@
-# 15552 ºü¸¥ A+B
+# 15552 ï¿½ï¿½ï¿½ï¿½ A+B
 import sys
 
 inp = int(input())
 for i in range(inp):
-        a,b = map(int, sys.stdin.readline().split())
-        print(a+b)
+    a,b = map(int, sys.stdin.readline().split())
+    print(a+b)
