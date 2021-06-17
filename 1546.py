@@ -1,14 +1,14 @@
-# 1546 Æò±Õ 
+# 1546 ï¿½ï¿½ï¿½ 
 num = int(input())
 max = 0
 avg = 0
 inArr = list(map(float, input().split()))
 for i in range(num):
-        if max < inArr[i]:
-                max = inArr[i]
+    if max < inArr[i]:
+        max = inArr[i]
 
 for i in range(num):
-        inArr[i] = inArr[i]/max*100.0
-        avg += inArr[i]
+    inArr[i] = inArr[i]/max*100.0
+    avg += inArr[i]
 
 print(round(avg/num, 2))
