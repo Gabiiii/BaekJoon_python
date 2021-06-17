@@ -1,8 +1,8 @@
-# 11721 ¿­ °³¾¿ ²÷¾î Ãâ·ÂÇÏ±â
+# 11721 ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
 inArr = input()
 cnt = 0
 for each in inArr:
-        print(each, end="")
-        cnt = cnt + 1
-        if (cnt % 10) == 0 :
-                print("")
+    print(each, end="")
+    cnt = cnt + 1
+    if (cnt % 10) == 0 :
+        print("")
