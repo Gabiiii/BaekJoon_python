@@ -1,33 +1,33 @@
-# 4344 Æò±ÕÀº ³Ñ°ÚÁö_code.1
+# 4344 ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½_code.1
 num = int(input())
 avg = []
 for i in range(num):
-        sco = list(map(int,input().split()))
-        stu = sco[0]
-        del sco[0]
-        sum = 0
-        cnt = 0
+    sco = list(map(int,input().split()))
+    stu = sco[0]
+    del sco[0]
+    sum = 0
+    cnt = 0
         
-        for j in sco:
-                sum += j
-        avg.append(sum/stu)
+    for j in sco:
+        sum += j
+    avg.append(sum/stu)
 
-        for j in sco:
-                if j > avg[i]:
-                        cnt = cnt+1
-        avg[i] = cnt/stu*100
+    for j in sco:
+        if j > avg[i]:
+            cnt = cnt+1
+    avg[i] = cnt/stu*100
         
 for i in range(len(avg)):
-        print("%.3f%%" %round(avg[i], 3))
+    print("%.3f%%" %round(avg[i], 3))
 
 
-# 4344 Æò±ÕÀº ³Ñ°ÚÁö_code.2
+# 4344 ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½_code.2
 num = int(input())
 for i in range(num):
-	sco = list(map(int, input().split()))
-	avg = sum(sco[1:]) / sco[0]
-	cnt = 0
-	for j in sco[1:]:
-		if j > avg:
-			cnt += 1
-	print("%.3f%%" %round(cnt/sco[0]*100, 3))
+    sco = list(map(int, input().split()))
+    avg = sum(sco[1:]) / sco[0]
+    cnt = 0
+    for j in sco[1:]:
+        if j > avg:
+            cnt += 1
+    print("%.3f%%" %round(cnt/sco[0]*100, 3))
